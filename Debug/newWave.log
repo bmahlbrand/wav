@@ -1,0 +1,93 @@
+﻿Build started 2/19/2014 5:34:00 AM.
+     1>Project "C:\Users\shift_000\Documents\WaveEdit\newWave.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt waveedit\ChildFrm.cpp waveedit\ClassView.cpp waveedit\FileView.cpp waveedit\MainFrm.cpp waveedit\OutputWnd.cpp waveedit\PropertiesWnd.cpp waveedit\stdafx.cpp waveedit\ViewTree.cpp waveedit\WaveEdit.cpp waveedit\WaveEditDoc.cpp waveedit\WaveEditView.cpp waveedit\WaveFile.cpp
+         WaveFile.cpp
+     1>waveedit\WaveFile.cpp(93): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>waveedit\WaveFile.cpp(149): warning C4018: '>' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(173): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>waveedit\WaveFile.cpp(176): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>waveedit\WaveFile.cpp(180): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(187): error C2664: 'BOOL PlaySoundA(LPCSTR,HMODULE,DWORD)' : cannot convert argument 1 from 'LPCWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>waveedit\WaveFile.cpp(255): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>waveedit\WaveFile.cpp(258): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>waveedit\WaveFile.cpp(259): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+     1>waveedit\WaveFile.cpp(284): warning C4018: '>' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(302): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(305): warning C4244: 'initializing' : conversion from 'double' to 'short', possible loss of data
+     1>waveedit\WaveFile.cpp(310): warning C4244: 'initializing' : conversion from 'double' to 'short', possible loss of data
+     1>waveedit\WaveFile.cpp(328): warning C4018: '>' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(389): warning C4018: '>' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(403): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>waveedit\WaveFile.cpp(413): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>waveedit\WaveFile.cpp(417): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>waveedit\WaveFile.cpp(422): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(436): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveFile.cpp(453): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveFile.cpp(453): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(471): warning C4018: '<' : signed/unsigned mismatch
+     1>waveedit\WaveFile.cpp(474): warning C4018: '<' : signed/unsigned mismatch
+         WaveEditView.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+     1>waveedit\WaveEditView.cpp(179): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>waveedit\WaveEditView.cpp(229): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveEditView.cpp(230): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveEditView.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveEditView.cpp(425): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>waveedit\WaveEditView.cpp(496): warning C4804: '/' : unsafe use of type 'bool' in operation
+     1>waveedit\WaveEditView.cpp(496): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         WaveEditDoc.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+     1>waveedit\WaveEditDoc.cpp(184): error C2664: 'CFile::CFile(const CFile &)' : cannot convert argument 1 from 'LPCWSTR' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         WaveEdit.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         ViewTree.cpp
+         stdafx.cpp
+         PropertiesWnd.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         OutputWnd.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         MainFrm.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         FileView.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         ClassView.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\Resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         ChildFrm.cpp
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(99): warning C4005: 'ID_EDIT_REDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(260) : see previous definition of 'ID_EDIT_REDO'
+     1>c:\users\shift_000\documents\waveedit\waveedit\resource.h(100): warning C4005: 'ID_EDIT_UNDO' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afxres.h(259) : see previous definition of 'ID_EDIT_UNDO'
+         Generating Code...
+     1>Done Building Project "C:\Users\shift_000\Documents\WaveEdit\newWave.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:08.24
